@@ -51,3 +51,6 @@ app.*.map.json
 android/key.properties
 *.jks
 *.keystore
+
+# AdMob IDs (local only, see lib/config/ads_config.example.dart)
+lib/config/ads_config.dart

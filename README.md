@@ -2,7 +2,7 @@
 
 A fast, private, cross-platform notes app built with Flutter.
 
-**Bundle ID:** `com.rpchauhan.notepad` · **Website:** rpchauhan.com/notepad
+**Bundle ID:** `com.rpchauhan.notes` · **Website:** rpchauhan.com/notepad
 **Platforms:** Android (built & verified) · iOS (project ready, build requires macOS)
 
 ## Features
@@ -126,7 +126,7 @@ Two options:
 **Either way, Apple setup:**
 1. **Account**: Join the Apple Developer Program — **$99/year**.
 2. **App Store Connect** (appstoreconnect.apple.com) → *My Apps → +* → New App:
-   iOS, name `Notepad: Notes, To-Do & Memo`, Bundle ID `com.rpchauhan.notepad`
+   iOS, name `Notepad: Notes, To-Do & Memo`, Bundle ID `com.rpchauhan.notes`
    (register the identifier at developer.apple.com → Identifiers first).
 3. **Metadata**: same description/screenshots as Play Store; iPhone screenshots
    required (6.7" and 6.5" sizes recommended), iPad optional.
@@ -140,7 +140,7 @@ Two options:
 Sync needs your own (free) Firebase project — I can't create it for you:
 
 1. Create a project at https://console.firebase.google.com (free Spark plan).
-2. Add an Android app with package name `com.rpchauhan.notepad` → download
+2. Add an Android app with package name `com.rpchauhan.notes` → download
    `google-services.json` → place in `notepad/android/app/`.
 3. Install FlutterFire CLI:
    ```powershell

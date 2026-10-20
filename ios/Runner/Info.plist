@@ -70,5 +70,8 @@
 		</array>
 		<key>UIStatusBarHidden</key>
 		<false/>
+		<!-- AdMob App ID. TODO: replace TEST id with real id from apps.admob.com -->
+		<key>GADApplicationIdentifier</key>
+		<string>ca-app-pub-3940256099942544~1458002511</string>
 	</dict>
 </plist>
